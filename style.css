@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(45deg, rgb(98, 10, 10), purple);
+    background: linear-gradient(45deg, rgba(255, 0, 140, 0.993), rgb(128, 1, 255));
 }
 
 .new-game {
@@ -36,7 +36,7 @@ body {
 
 .player0 {
     position: relative;
-    background: rgba(93, 116, 121, 0.618);
+    background: rgba(140, 168, 175, 0.618);
     display: flex;
     flex: 1 1 20rem;
     align-items: center;
@@ -64,7 +64,8 @@ body {
 .player1 {
     position: relative;
     display: flex;
-    background: rgba(93, 116, 121, 0.618);
+    background: rgba(140, 168, 175, 0.618);
+
 
     flex: 1 1 20rem;
     align-items: center;
@@ -135,7 +136,7 @@ body {
 }
 
 .active--player {
-    background: rgba(102, 70, 97, 0.721);
+    background: rgba(190, 253, 0, 0.248);
 }
 
 .win {
@@ -154,7 +155,7 @@ body {
 .rules {
     min-height: 20vh;
     min-width: 50vw;
-    background: #756969;
+    background: #accaf4bc;
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -164,6 +165,10 @@ p {
     font-size: 13px;
     font-weight: 800;
 }
+
+/* .currentscore-style h3 {
+    font-size: 0.8;
+} */
 
 @media screen and (max-width:750px) {
     .btn {
@@ -182,10 +187,14 @@ p {
     h1,
     h2,
     h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .new-game {
+        font-size: 0.8rem;
+    }
+
+    .currentscore-style h3 {
         font-size: 0.8rem;
     }
 
