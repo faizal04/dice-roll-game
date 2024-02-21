@@ -109,6 +109,11 @@ body {
     z-index: 5;
 }
 
+/* li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+} */
+
 
 .score {
     height: 2rem;
@@ -147,9 +152,12 @@ body {
 }
 
 .rules {
-    min-height: 30vh;
-    width: 50vh;
+    min-height: 20vh;
+    min-width: 50vw;
     background: #756969;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
 }
 
 p {
@@ -179,6 +187,16 @@ p {
 
     .new-game {
         font-size: 0.8rem;
+    }
+
+    .rules {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        /* margin: 2rem; */
+    }
+
+    li p {
+        font-size: 0.5rem;
     }
 
 
