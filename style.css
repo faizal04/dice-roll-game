@@ -28,8 +28,8 @@ body {
 }
 
 .main-section {
-    height: 60vh;
-    width: 60vw;
+    min-height: 60vh;
+    width: 90vw;
     display: flex;
     position: relative;
 }
@@ -155,4 +155,31 @@ body {
 p {
     font-size: 13px;
     font-weight: 800;
+}
+
+@media screen and (max-width:750px) {
+    .btn {
+        height: 1.5rem;
+        width: 4rem;
+        font-size: 1rem;
+    }
+
+    .main-section {
+        min-height: 60vh;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .new-game {
+        font-size: 0.8rem;
+    }
+
+
 }
